@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="140.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.ZakazCard">
+   <children>
+      <Text fx:id="adresPunkta" layoutX="23.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="articule" layoutX="23.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="status" layoutX="23.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="dataZakaza" layoutX="23.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fx:id="datadostavki" layoutX="534.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+   </children>
+</AnchorPane>
