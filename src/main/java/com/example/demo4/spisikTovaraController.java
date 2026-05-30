@@ -78,6 +78,7 @@ filtraciaCB.valueProperty().addListener((obs,o,n)-> applyData());
     }
     private void loadTovar(){
         try {
+
             dbHandler.DBCoonnection();
             ResultSet rs = dbHandler.qxecuteQuery("SELECT t.articule, nt.nazvanie naimenovanie_tovara, t.edenica_izmerenia, t.cena, " +
                     "pt.nazvanie postavshic, p.nazvanie proizvoditel,k.nazvanie kategoria_tovara, " +
